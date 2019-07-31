@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Maven Pro", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: "Maven Pro", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url("./images/jslab3image.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    text-align: left;
+}
+form {
+    background-color: rgb(179,178,176,0.6);
+    width: 30%;
+    position: relative;
+    left: 25%;
+    bottom: 200%;
+    transform: translate(-60%, 10%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form * {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    background-color: #fff
+    
+}
+
+.contact_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: ; */
+    /* position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-content: space-around;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px; */
+    
+  
+}
+
+.contact_box {
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    width: fit-content;
+    margin: 25px;
+    position: relative;
+    bottom: -80px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-family: "Maven Pro", sans-serif;
+}
+
+
+
+button {
+    background-color: white;
+    padding: 10px 40px;
+    margin: 0;
+  
+}
+
+select {
+    height: 5vh;
+}
+
+input,
+button{
+
+    border-radius: 10px;
+}
+
+.fa-trash {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+/* .check {
+    display: flex;
+    margin: 0;
+} */
